@@ -110,13 +110,13 @@
                       <h5 class="text-2xl font-medium text-white">Budget</h5>
                     </div>
                     <div class="flex justify-center mt-7">
-                        <p class="text-white">Per Player <input class="text-black" type="text" name="" id=""></p>
+                        <p class="text-white">Per Player <input class="text-black" type="text" name="" id="budget-field"></p>
                     </div>
                     <div class="flex justify-center mt-7">
-                       <button class="bg-green-500 text-white w-9/12 mx-auto block">Calculate</button>
+                       <button id="btn-calculate" class="bg-green-500 text-white w-9/12 mx-auto block">Calculate</button>
                     </div>
                     <div class="mt-7">
-                        <p class="text-white mx-2">Player Expenses  $<span> </span></p>
+                        <p class="text-white mx-2">Player Expenses : $<span id="player-cost-element"> </span></p>
                     </div>
                     <div class="flex justify-center mt-7">
                         <p class="text-white">Manager  <input class="text-black" type="text" name="" id=""></p>
@@ -137,7 +137,8 @@
         </section>
     </main>
     <!-- Main end -->
+    <script src="/js/utilities.js"></script>
     <script src="/js/select.js"></script>
-    <script src="/js/budjet.js"></script>
+    <script src="/js/budget.js"></script>
 </body>
 </html>
