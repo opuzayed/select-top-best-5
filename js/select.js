@@ -1,8 +1,3 @@
-document.getElementById("btn-messi").addEventListener("click", function () {
-  const text = [];
-  const element = getElementValueById("text-messi");
-  text.push(element);
-});
 const player = [];
 document.querySelectorAll(".select-player").forEach(selectPlayer);
 function selectPlayer(item) {
@@ -24,29 +19,4 @@ function selectPlayer(item) {
     console.log(player);
   });
 }
-/* document.getElementById('btn-alvarez').addEventListener('click', function(){
-    const text = [];
-    const element = getElementValueById('text-alvarez');
-    text.push(element);
-});
-document.getElementById('btn-maria').addEventListener('click', function(){
-    const text = [];
-    const element = getElementValueById('text-maria');
-    text.push(element);
-});
-document.getElementById('btn-locelso').addEventListener('click', function(){
-    const text = [];
-    const element = getElementValueById('text-locelso');
-    text.push(element);
-});
-document.getElementById('btn-romero').addEventListener('click', function(){
-    const text = [];
-    const element = getElementValueById('text-romero');
-    text.push(element);
-});
-document.getElementById('btn-otamendi').addEventListener('click', function(){
-    const text = [];
-    const element = getElementValueById('text-otamendi');
-    text.push(element);
-    console.log(text[5]);
-}); */
+
