@@ -3,6 +3,14 @@
   pointer-events: none;
   color: #2e2e2e !important;
 }
-#selectedPlayers{
-    list-style: auto;
+#selectedPlayers {
+  list-style: auto;
+}
+
+.budget-div label {
+  color: #fff;
+}
+
+.budget-div input {
+  width: 55%;
 }
