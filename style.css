@@ -1,0 +1,10 @@
+.disable {
+  background: #c9c9c9 !important;
+  pointer-events: none;
+  color: #2e2e2e !important;
+}
+
+
+#selectedPlayers{
+    list-style: auto;
+}
